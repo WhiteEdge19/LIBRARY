@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 70% 1fr;
+    
+}
+
+.header{
+    grid-area: 1/1/2/5;
+}
+
+.work-area{
+    grid-area: 2/1/4/3;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.formulario{
+    grid-area: 2/4/4/5;
+}
